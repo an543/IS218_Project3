@@ -12,6 +12,7 @@
                 <h2 class='questionHeading'>Title:&nbsp;</h2><p class='questionContent'><?php echo $question['title']; ?></p><br>
 				
                 <h2 class='questionHeading'>Body:&nbsp;</h2><p class='questionContent'><?php echo $question['body']; ?></p><br>
+	
 				
 				<h2 class='questionHeading'>Skills:&nbsp;</h2><p class='questionContent'><?php echo $question['skills']; ?></p><br><br>
 				

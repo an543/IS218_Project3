@@ -1,5 +1,5 @@
 body{
-    background-color: #99873D;
+     background-image: url("paper.jpg");
 }
 
 input[type=text], input[type=password], input[type=date], textarea {
@@ -32,11 +32,11 @@ label {
 }
 
 .formBox {
-    background-color: #40DEFF;
+    
     display: inline-block;
     margin-top: 5em;
     width: 60em;
-    border: 5px double #FFFFFF;
+    
 }
 
 .formHeading {

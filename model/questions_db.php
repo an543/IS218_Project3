@@ -2,7 +2,7 @@
 function getQuestions($email) {
     global $db;
 
-    $query = "SELECT id, title, body FROM questions WHERE owneremail = :email";
+    $query = "SELECT * FROM questions WHERE owneremail = :email";
     $statement = $db->prepare($query);
     $statement->bindValue(':email', $email);
     $statement->execute();
